@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8E8E4ED29B0BF87002E6F06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E8E4EC29B0BF87002E6F06 /* AppDelegate.swift */; };
+		B8E8E4EF29B0BF87002E6F06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E8E4EE29B0BF87002E6F06 /* SceneDelegate.swift */; };
+		B8E8E4F129B0BF87002E6F06 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E8E4F029B0BF87002E6F06 /* MainViewController.swift */; };
+		B8E8E4F429B0BF87002E6F06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E8E4F229B0BF87002E6F06 /* Main.storyboard */; };
+		B8E8E4F629B0BF89002E6F06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8E8E4F529B0BF89002E6F06 /* Assets.xcassets */; };
+		B8E8E4F929B0BF89002E6F06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E8E4F729B0BF89002E6F06 /* LaunchScreen.storyboard */; };
+		B8E8E50429B0BF89002E6F06 /* pixiv_tutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E8E50329B0BF89002E6F06 /* pixiv_tutorialTests.swift */; };
+		B8E8E50E29B0BF89002E6F06 /* pixiv_tutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E8E50D29B0BF89002E6F06 /* pixiv_tutorialUITests.swift */; };
+		B8E8E51029B0BF89002E6F06 /* pixiv_tutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E8E50F29B0BF89002E6F06 /* pixiv_tutorialUITestsLaunchTests.swift */; };
+		B8E8E51D29B0BFF9002E6F06 /* IllustCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E8E51C29B0BFF9002E6F06 /* IllustCell.swift */; };
+		B8E8E51F29B0C504002E6F06 /* IllustCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8E8E51E29B0C504002E6F06 /* IllustCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8E8E50029B0BF89002E6F06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8E8E4E129B0BF87002E6F06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8E8E4E829B0BF87002E6F06;
+			remoteInfo = "pixiv-tutorial";
+		};
+		B8E8E50A29B0BF89002E6F06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8E8E4E129B0BF87002E6F06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8E8E4E829B0BF87002E6F06;
+			remoteInfo = "pixiv-tutorial";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8E8E4E929B0BF87002E6F06 /* pixiv-tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pixiv-tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E8E4EC29B0BF87002E6F06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B8E8E4EE29B0BF87002E6F06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B8E8E4F029B0BF87002E6F06 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B8E8E4F329B0BF87002E6F06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8E8E4F529B0BF89002E6F06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8E8E4F829B0BF89002E6F06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8E8E4FA29B0BF89002E6F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8E8E4FF29B0BF89002E6F06 /* pixiv-tutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pixiv-tutorialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E8E50329B0BF89002E6F06 /* pixiv_tutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pixiv_tutorialTests.swift; sourceTree = "<group>"; };
+		B8E8E50929B0BF89002E6F06 /* pixiv-tutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pixiv-tutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E8E50D29B0BF89002E6F06 /* pixiv_tutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pixiv_tutorialUITests.swift; sourceTree = "<group>"; };
+		B8E8E50F29B0BF89002E6F06 /* pixiv_tutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pixiv_tutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B8E8E51C29B0BFF9002E6F06 /* IllustCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllustCell.swift; sourceTree = "<group>"; };
+		B8E8E51E29B0C504002E6F06 /* IllustCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IllustCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8E8E4E629B0BF87002E6F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E8E4FC29B0BF89002E6F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E8E50629B0BF89002E6F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8E8E4E029B0BF87002E6F06 = {
+			isa = PBXGroup;
+			children = (
+				B8E8E4EB29B0BF87002E6F06 /* pixiv-tutorial */,
+				B8E8E50229B0BF89002E6F06 /* pixiv-tutorialTests */,
+				B8E8E50C29B0BF89002E6F06 /* pixiv-tutorialUITests */,
+				B8E8E4EA29B0BF87002E6F06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8E8E4EA29B0BF87002E6F06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8E8E4E929B0BF87002E6F06 /* pixiv-tutorial.app */,
+				B8E8E4FF29B0BF89002E6F06 /* pixiv-tutorialTests.xctest */,
+				B8E8E50929B0BF89002E6F06 /* pixiv-tutorialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8E8E4EB29B0BF87002E6F06 /* pixiv-tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				B8E8E4EC29B0BF87002E6F06 /* AppDelegate.swift */,
+				B8E8E4EE29B0BF87002E6F06 /* SceneDelegate.swift */,
+				B8E8E4F029B0BF87002E6F06 /* MainViewController.swift */,
+				B8E8E51C29B0BFF9002E6F06 /* IllustCell.swift */,
+				B8E8E4F229B0BF87002E6F06 /* Main.storyboard */,
+				B8E8E4F529B0BF89002E6F06 /* Assets.xcassets */,
+				B8E8E4F729B0BF89002E6F06 /* LaunchScreen.storyboard */,
+				B8E8E4FA29B0BF89002E6F06 /* Info.plist */,
+				B8E8E51E29B0C504002E6F06 /* IllustCell.xib */,
+			);
+			path = "pixiv-tutorial";
+			sourceTree = "<group>";
+		};
+		B8E8E50229B0BF89002E6F06 /* pixiv-tutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8E8E50329B0BF89002E6F06 /* pixiv_tutorialTests.swift */,
+			);
+			path = "pixiv-tutorialTests";
+			sourceTree = "<group>";
+		};
+		B8E8E50C29B0BF89002E6F06 /* pixiv-tutorialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B8E8E50D29B0BF89002E6F06 /* pixiv_tutorialUITests.swift */,
+				B8E8E50F29B0BF89002E6F06 /* pixiv_tutorialUITestsLaunchTests.swift */,
+			);
+			path = "pixiv-tutorialUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8E8E4E829B0BF87002E6F06 /* pixiv-tutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8E8E51329B0BF89002E6F06 /* Build configuration list for PBXNativeTarget "pixiv-tutorial" */;
+			buildPhases = (
+				B8E8E4E529B0BF87002E6F06 /* Sources */,
+				B8E8E4E629B0BF87002E6F06 /* Frameworks */,
+				B8E8E4E729B0BF87002E6F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pixiv-tutorial";
+			productName = "pixiv-tutorial";
+			productReference = B8E8E4E929B0BF87002E6F06 /* pixiv-tutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8E8E4FE29B0BF89002E6F06 /* pixiv-tutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8E8E51629B0BF89002E6F06 /* Build configuration list for PBXNativeTarget "pixiv-tutorialTests" */;
+			buildPhases = (
+				B8E8E4FB29B0BF89002E6F06 /* Sources */,
+				B8E8E4FC29B0BF89002E6F06 /* Frameworks */,
+				B8E8E4FD29B0BF89002E6F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8E8E50129B0BF89002E6F06 /* PBXTargetDependency */,
+			);
+			name = "pixiv-tutorialTests";
+			productName = "pixiv-tutorialTests";
+			productReference = B8E8E4FF29B0BF89002E6F06 /* pixiv-tutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8E8E50829B0BF89002E6F06 /* pixiv-tutorialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8E8E51929B0BF89002E6F06 /* Build configuration list for PBXNativeTarget "pixiv-tutorialUITests" */;
+			buildPhases = (
+				B8E8E50529B0BF89002E6F06 /* Sources */,
+				B8E8E50629B0BF89002E6F06 /* Frameworks */,
+				B8E8E50729B0BF89002E6F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8E8E50B29B0BF89002E6F06 /* PBXTargetDependency */,
+			);
+			name = "pixiv-tutorialUITests";
+			productName = "pixiv-tutorialUITests";
+			productReference = B8E8E50929B0BF89002E6F06 /* pixiv-tutorialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8E8E4E129B0BF87002E6F06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					B8E8E4E829B0BF87002E6F06 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					B8E8E4FE29B0BF89002E6F06 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = B8E8E4E829B0BF87002E6F06;
+					};
+					B8E8E50829B0BF89002E6F06 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = B8E8E4E829B0BF87002E6F06;
+					};
+				};
+			};
+			buildConfigurationList = B8E8E4E429B0BF87002E6F06 /* Build configuration list for PBXProject "pixiv-tutorial" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8E8E4E029B0BF87002E6F06;
+			productRefGroup = B8E8E4EA29B0BF87002E6F06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8E8E4E829B0BF87002E6F06 /* pixiv-tutorial */,
+				B8E8E4FE29B0BF89002E6F06 /* pixiv-tutorialTests */,
+				B8E8E50829B0BF89002E6F06 /* pixiv-tutorialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8E8E4E729B0BF87002E6F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E8E51F29B0C504002E6F06 /* IllustCell.xib in Resources */,
+				B8E8E4F929B0BF89002E6F06 /* LaunchScreen.storyboard in Resources */,
+				B8E8E4F629B0BF89002E6F06 /* Assets.xcassets in Resources */,
+				B8E8E4F429B0BF87002E6F06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E8E4FD29B0BF89002E6F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E8E50729B0BF89002E6F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8E8E4E529B0BF87002E6F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E8E51D29B0BFF9002E6F06 /* IllustCell.swift in Sources */,
+				B8E8E4F129B0BF87002E6F06 /* MainViewController.swift in Sources */,
+				B8E8E4ED29B0BF87002E6F06 /* AppDelegate.swift in Sources */,
+				B8E8E4EF29B0BF87002E6F06 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E8E4FB29B0BF89002E6F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E8E50429B0BF89002E6F06 /* pixiv_tutorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E8E50529B0BF89002E6F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E8E50E29B0BF89002E6F06 /* pixiv_tutorialUITests.swift in Sources */,
+				B8E8E51029B0BF89002E6F06 /* pixiv_tutorialUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8E8E50129B0BF89002E6F06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8E8E4E829B0BF87002E6F06 /* pixiv-tutorial */;
+			targetProxy = B8E8E50029B0BF89002E6F06 /* PBXContainerItemProxy */;
+		};
+		B8E8E50B29B0BF89002E6F06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8E8E4E829B0BF87002E6F06 /* pixiv-tutorial */;
+			targetProxy = B8E8E50A29B0BF89002E6F06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8E8E4F229B0BF87002E6F06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8E8E4F329B0BF87002E6F06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8E8E4F729B0BF89002E6F06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8E8E4F829B0BF89002E6F06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8E8E51129B0BF89002E6F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8E8E51229B0BF89002E6F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8E8E51429B0BF89002E6F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9DE7A9X97;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pixiv-tutorial/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yosukeoba.pixiv-tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8E8E51529B0BF89002E6F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9DE7A9X97;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pixiv-tutorial/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yosukeoba.pixiv-tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B8E8E51729B0BF89002E6F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9DE7A9X97;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yosukeoba.pixiv-tutorialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pixiv-tutorial.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pixiv-tutorial";
+			};
+			name = Debug;
+		};
+		B8E8E51829B0BF89002E6F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9DE7A9X97;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yosukeoba.pixiv-tutorialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pixiv-tutorial.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pixiv-tutorial";
+			};
+			name = Release;
+		};
+		B8E8E51A29B0BF89002E6F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9DE7A9X97;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yosukeoba.pixiv-tutorialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pixiv-tutorial";
+			};
+			name = Debug;
+		};
+		B8E8E51B29B0BF89002E6F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G9DE7A9X97;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yosukeoba.pixiv-tutorialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "pixiv-tutorial";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8E8E4E429B0BF87002E6F06 /* Build configuration list for PBXProject "pixiv-tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E8E51129B0BF89002E6F06 /* Debug */,
+				B8E8E51229B0BF89002E6F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8E8E51329B0BF89002E6F06 /* Build configuration list for PBXNativeTarget "pixiv-tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E8E51429B0BF89002E6F06 /* Debug */,
+				B8E8E51529B0BF89002E6F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8E8E51629B0BF89002E6F06 /* Build configuration list for PBXNativeTarget "pixiv-tutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E8E51729B0BF89002E6F06 /* Debug */,
+				B8E8E51829B0BF89002E6F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8E8E51929B0BF89002E6F06 /* Build configuration list for PBXNativeTarget "pixiv-tutorialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8E8E51A29B0BF89002E6F06 /* Debug */,
+				B8E8E51B29B0BF89002E6F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8E8E4E129B0BF87002E6F06 /* Project object */;
+}
