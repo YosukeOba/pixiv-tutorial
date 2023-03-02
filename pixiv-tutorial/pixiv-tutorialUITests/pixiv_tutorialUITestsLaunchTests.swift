@@ -8,7 +8,6 @@
 import XCTest
 
 final class pixiv_tutorialUITestsLaunchTests: XCTestCase {
-
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
     }

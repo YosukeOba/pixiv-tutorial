@@ -5,11 +5,10 @@
 //  Created by Yosuke Oba on 2023/03/02.
 //
 
-import XCTest
 @testable import pixiv_tutorial
+import XCTest
 
 final class pixiv_tutorialTests: XCTestCase {
-
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -28,9 +27,8 @@ final class pixiv_tutorialTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }
-
 }

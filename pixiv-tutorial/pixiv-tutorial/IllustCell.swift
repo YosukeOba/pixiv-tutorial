@@ -7,7 +7,7 @@
 
 import UIKit
 
-class IllustCell: UICollectionViewCell{
+class IllustCell: UICollectionViewCell {
     // UICollectionViewCellがロードされた直後に一度だけ実行する処理
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -143,6 +143,7 @@
 				B8E8E4E529B0BF87002E6F06 /* Sources */,
 				B8E8E4E629B0BF87002E6F06 /* Frameworks */,
 				B8E8E4E729B0BF87002E6F06 /* Resources */,
+				B8E8E52029B0CB33002E6F06 /* SwiftFormat */,
 			);
 			buildRules = (
 			);
@@ -259,6 +260,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B8E8E52029B0CB33002E6F06 /* SwiftFormat */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftFormat;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftformat >/dev/null; then\n  swiftformat .\nelse\n  echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B8E8E4E529B0BF87002E6F06 /* Sources */ = {
