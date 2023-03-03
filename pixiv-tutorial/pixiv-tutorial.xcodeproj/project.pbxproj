@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B86AEE9B29B22CBD00428193 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86AEE9A29B22CBD00428193 /* HeaderCell.swift */; };
 		B8E8E4ED29B0BF87002E6F06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E8E4EC29B0BF87002E6F06 /* AppDelegate.swift */; };
 		B8E8E4EF29B0BF87002E6F06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E8E4EE29B0BF87002E6F06 /* SceneDelegate.swift */; };
 		B8E8E4F129B0BF87002E6F06 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E8E4F029B0BF87002E6F06 /* MainViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B86AEE9A29B22CBD00428193 /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
 		B8E8E4E929B0BF87002E6F06 /* pixiv-tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pixiv-tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E8E4EC29B0BF87002E6F06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8E8E4EE29B0BF87002E6F06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				B8E8E4F729B0BF89002E6F06 /* LaunchScreen.storyboard */,
 				B8E8E4FA29B0BF89002E6F06 /* Info.plist */,
 				B8E8E51E29B0C504002E6F06 /* IllustCell.xib */,
+				B86AEE9A29B22CBD00428193 /* HeaderCell.swift */,
 			);
 			path = "pixiv-tutorial";
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8E8E51D29B0BFF9002E6F06 /* IllustCell.swift in Sources */,
+				B86AEE9B29B22CBD00428193 /* HeaderCell.swift in Sources */,
 				B8E8E4F129B0BF87002E6F06 /* MainViewController.swift in Sources */,
 				B8E8E4ED29B0BF87002E6F06 /* AppDelegate.swift in Sources */,
 				B8E8E4EF29B0BF87002E6F06 /* SceneDelegate.swift in Sources */,
