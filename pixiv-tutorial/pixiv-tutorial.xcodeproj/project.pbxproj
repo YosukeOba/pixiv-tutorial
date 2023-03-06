@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B86AEE9B29B22CBD00428193 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86AEE9A29B22CBD00428193 /* HeaderCell.swift */; };
+		B86AEE9F29B6211200428193 /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B86AEE9E29B6211200428193 /* HeaderCell.xib */; };
 		B8E8E4ED29B0BF87002E6F06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E8E4EC29B0BF87002E6F06 /* AppDelegate.swift */; };
 		B8E8E4EF29B0BF87002E6F06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E8E4EE29B0BF87002E6F06 /* SceneDelegate.swift */; };
 		B8E8E4F129B0BF87002E6F06 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E8E4F029B0BF87002E6F06 /* MainViewController.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		B86AEE9A29B22CBD00428193 /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		B86AEE9E29B6211200428193 /* HeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
 		B8E8E4E929B0BF87002E6F06 /* pixiv-tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pixiv-tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E8E4EC29B0BF87002E6F06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8E8E4EE29B0BF87002E6F06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				B8E8E4FA29B0BF89002E6F06 /* Info.plist */,
 				B8E8E51E29B0C504002E6F06 /* IllustCell.xib */,
 				B86AEE9A29B22CBD00428193 /* HeaderCell.swift */,
+				B86AEE9E29B6211200428193 /* HeaderCell.xib */,
 			);
 			path = "pixiv-tutorial";
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B86AEE9F29B6211200428193 /* HeaderCell.xib in Resources */,
 				B8E8E51F29B0C504002E6F06 /* IllustCell.xib in Resources */,
 				B8E8E4F929B0BF89002E6F06 /* LaunchScreen.storyboard in Resources */,
 				B8E8E4F629B0BF89002E6F06 /* Assets.xcassets in Resources */,
